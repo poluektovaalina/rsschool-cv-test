@@ -1,0 +1,25 @@
+.wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .picture-blok {
+    width: 70%;
+    height: auto;
+}
+.wrapper .picture-blok img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .desc-blok{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
